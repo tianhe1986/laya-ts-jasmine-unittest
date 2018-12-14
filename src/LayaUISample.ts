@@ -16,6 +16,8 @@ class TestUI extends ui.test.TestPageUI {
 		console.log(a.multiple(9,43));
 		let b = new Library.MixedService();
 		console.log(b.calcu(8,6));
+		let c = new Library.InterService();
+		console.log(c.test(87,65));
 	}
 
 	private onBtnClick(): void {

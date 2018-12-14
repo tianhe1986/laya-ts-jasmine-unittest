@@ -28,6 +28,8 @@ var TestUI = /** @class */ (function (_super) {
         console.log(a.multiple(9, 43));
         var b = new Library.MixedService();
         console.log(b.calcu(8, 6));
+        var c = new Library.InterService();
+        console.log(c.test(87, 65));
         return _this;
     }
     TestUI.prototype.onBtnClick = function () {
