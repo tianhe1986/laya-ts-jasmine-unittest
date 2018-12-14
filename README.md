@@ -2,9 +2,9 @@
 Laya ts版，结合jasmine进行单元测试
 
 # 使用说明
-1. 下载，用Laya IDE 导入项目，编译
+1. 下载，用Laya IDE 导入项目
 2. 在命令行下，项目根目录，执行 npm install.
-3. 执行npm test.
+3. 编译项目，执行npm test.
 
 # 测试用例编写
 采用的是jasmine框架，配置文件为jasmine.json,可自行搜索相关资料.  
