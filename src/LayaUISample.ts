@@ -14,6 +14,8 @@ class TestUI extends ui.test.TestPageUI {
 		console.log(Library.ToolService.sum(67,43));
 		let a = new Library.UserService();
 		console.log(a.multiple(9,43));
+		let b = new Library.MixedService();
+		console.log(b.calcu(8,6));
 	}
 
 	private onBtnClick(): void {
